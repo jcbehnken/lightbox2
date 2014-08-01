@@ -64,6 +64,13 @@ body:after {
   padding: 4px;
 }
 
+.lb-facebook {
+	position: relative;
+	text-align: left;
+	left: 25px;
+	top: -25px;
+}
+
 .lb-loader {
   position: absolute;
   top: 43%;
