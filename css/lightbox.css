@@ -64,13 +64,6 @@ body:after {
   padding: 4px;
 }
 
-.lb-facebook {
-	position: relative;
-	text-align: left;
-	left: 25px;
-	top: -25px;
-}
-
 .lb-loader {
   position: absolute;
   top: 43%;
@@ -214,4 +207,12 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.lb-facebook {
+	position: absolute;
+	text-align: left;
+	left: 25px;
+	top: -25px;
+    z-index:11000;
 }
